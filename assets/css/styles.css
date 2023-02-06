@@ -1,0 +1,188 @@
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.timeline-arrow {
+  border-top: 0.5rem solid transparent;
+  border-right: 0.5rem solid #fff;
+  border-bottom: 0.5rem solid transparent;
+  display: block;
+  position: absolute;
+  left: 2rem;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: #f4f4f4;
+  display: inline-block;
+  position: absolute;
+  left: 16px;
+  width: 4px;
+  height: 100%;
+  z-index: 400;
+  border-radius: 1rem;
+}
+
+li.timeline-item {
+  margin: 20px 0;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+li.timeline-item::before {
+  content: ' ';
+  background: #ddd;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  left: 11px;
+  width: 14px;
+  height: 14px;
+  z-index: 400;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.text-gray {
+  color: #999;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: #fff;
+  display: inline-block;
+  position: absolute;
+  left: 16px;
+  width: 4px;
+  height: 100%;
+  z-index: 400;
+  border-radius: 1rem;
+}
+
+li.timeline-item {
+  margin: 20px 0;
+}
+
+li.timeline-item::before {
+  content: ' ';
+  background: #ddd;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  left: 11px;
+  width: 14px;
+  height: 14px;
+  z-index: 400;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#icon {
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
+#icon-text1 {
+  text-align: center;
+}
+
+#footer-text {
+  text-align: center;
+}
+
+@media (min-width: 300px) {
+  #about-text {
+    font-size: 25px;
+    font-family: 'Libre Baskerville', serif;
+    width: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  #about-text {
+    font-size: 40px;
+    font-family: 'Libre Baskerville', serif;
+    width: auto;
+  }
+}
+
+.section {
+  padding-bottom: 7rem;
+}
+
+.py-6 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+#curator-feed-default-feed-layout {
+  color: white;
+  font-size: 1px;
+}
+
+#linkedin-text {
+  padding: 1rem;
+  margin: auto;
+  width: auto;
+}
+
+.linkedin-wrap {
+  width: 30%;
+  top: 50%;
+  left: 50%;
+}
+
+.searchButton {
+  width: 40px;
+  height: 41px;
+  border: 1px solid #00B4CC;
+  background: #0b66c2;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.search {
+  width: 30rem;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus {
+  color: #00B4CC;
+}
+
+#linkedin-icon {
+  margin-left: -10px;
+}
+
+.linkedin-wrap {
+  width: 100%;
+}
+
+.icon-button-link:hover {
+  cursor: pointer;
+}
+
