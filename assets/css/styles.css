@@ -159,6 +159,14 @@ li.timeline-item::before {
   display: flex;
 }
 
+@media (min-width: 300px) {
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+}
+
 .searchTerm {
   width: 100%;
   border: 3px solid #00B4CC;
@@ -176,6 +184,13 @@ li.timeline-item::before {
 
 #linkedin-icon {
   margin-left: -10px;
+}
+
+@media (min-width: 300px) {
+  #linkedin-icon {
+    margin-left: -12px;
+    margin-bottom: 10px;
+  }
 }
 
 .linkedin-wrap {
